@@ -1,0 +1,54 @@
+body {
+  background-color: #6C7A7D;
+}
+
+.App {
+  background-color: #55676A;
+  min-height: 500px;
+  width: 400px;
+  margin: 40px auto;
+  border-radius: 15px;
+}
+
+#to-do-form input {
+  background-color: #cba18c;
+  border: 0;
+  width: 200px;
+  height: 50px;
+  padding: 0 20px;
+  margin: 20px;
+  font-size: 20px;
+  border-radius: 10px;
+  color: white;
+}
+
+#to-do-form input::placeholder {
+  color: white;
+}
+
+#to-do-form input:focus,
+#to-do-form button:focus {
+  outline: none;
+}
+
+#to-do-form button {
+  height: 50px;
+  width: 80px;
+  border-radius: 5px;
+  border: 0;
+  background-color: #EEC015;
+  cursor: pointer;
+  font-weight: bolder;
+  color: white;
+}
+
+.deleteAll{
+  color: white;
+  margin: auto 300px;
+  display: flex;
+}
+
+.deleteAll span{
+  padding-right: 10px;
+  cursor: pointer;
+}
