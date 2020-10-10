@@ -31,3 +31,12 @@
 .icon {
   padding-right: 15px;
 }
+
+.btn-icon {
+  border: none;
+}
+
+.btn-icon:hover {
+  border: none;
+  outline: none;
+}
